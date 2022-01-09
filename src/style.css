@@ -1,0 +1,62 @@
+.navbar{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(25, 120, 175);
+    color: #000;
+}
+.nav_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav_items h2{
+    font-size: 50px;
+}
+.nav_items button{
+    width: 25%;
+    height: 10vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background-color: black;
+    color: rgb(55, 94, 179);
+}
+.fetch_btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 94, 206);
+}
+.user_data_box{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(60, 94, 206);
+}
+#main{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.name:hover{
+    color: rgb(53, 39, 247);
+}
+.avatar{
+    border-radius: 30%;
+}
+.profile_cont{
+    border-radius: 8%;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    transition: transform ease 0.2s;
+    opacity: 0.8;
+    margin-top: 0vh;
+}
+.profile_cont:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
